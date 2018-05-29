@@ -1,0 +1,19 @@
+<h1>Add A Contacts</h1>
+<%= form_for @contact do |f| %>
+<%= f.label :first_name %>
+<%= f.text :first_name %>
+
+<%= f.label :last_name %>
+<%= f.text :last_name %>
+
+<%= f.label :email %>
+<%= f.text :email %>
+
+<%= f.label :phone %>
+<%= f.integer :phone %>
+
+<%= f.label :password %>
+<%= f.text :password %>
+
+<%= f.submit %>
+<% end %>

@@ -1,0 +1,5 @@
+<h1>Contacts</h1>
+<% @contact.each do |contact| %>
+  <h2><%= "#{contact.first_name} #{contact.last_name}" %></h2>
+  <%= link_to 'Show Page', contact_path(contact) %>
+<% end %>

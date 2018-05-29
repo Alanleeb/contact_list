@@ -1,0 +1,17 @@
+<h1>Address</h1>
+<%= form_for [@contact, @address] do |f| %>
+<%= f.label :address %>
+<%= f.text :address %>
+
+<%= f.label :city %>
+<%= f.text :city %>
+
+<%= f.label :state %>
+<%= f.text :state %>
+
+<%= f.label :zip %>
+<%= f.integer :zip %>
+
+<%= f.submit %>
+
+<% end %>

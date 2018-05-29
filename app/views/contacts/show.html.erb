@@ -1,0 +1,7 @@
+<h1>Contacts</h1>
+<h1><%= "#{@contact.first_name} #{@contact.last_name}" %></h1>
+<h4><%= @contact.email %></h1>
+<p><%= @contact.phone %></p>
+<p><%= @contact.password %></p>
+
+<%= link_to 'Back', contacts_path %>
